@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0e68c; /* Khaki background */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#background {
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff; /* White background for the content area */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Needed for absolute positioning of children */
+}
+
+#dancing-lion {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #c0392b; /* Red color for the greeting */
+    font-size: 2em; /* Adjust size as needed */
+    margin-top: 0;
+}
